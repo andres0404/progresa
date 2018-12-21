@@ -1,0 +1,29 @@
+table.dataTable td {
+  word-break: break-word;
+}
+
+td.details-control {
+    background: url('../../resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.details td.details-control {
+    background: url('../../resources/details_close.png') no-repeat center center;
+}
+
+
+#isapli{
+    visibility: visible;
+    width: 120px; 
+    height: 40px;
+    float: right;
+    float: right; 
+    color: green;
+}
+
+#lstdocuv{
+    visibility: visible;
+}
+
+#lstdocuo{
+    visibility: hidden;
+}
